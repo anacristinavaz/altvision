@@ -31,14 +31,16 @@ O projeto é um MVP funcional, voltado para demonstrar a integração entre fron
 - **JavaScript** (ES6+) – Lógica principal da extensão e integração com a API.
 - **Chrome Extensions API** (Manifest v3) – Comunicação entre popup, conteúdo e background.
 - **HTML5** e **CSS3** – Interface leve e responsiva.
-- **OpenAI API** (GPT-4o-mini) – Geração automática das descrições de imagens.
+- **OpenAI API** (GPT-4o) – Geração automática das descrições de imagens.
 - **Armazenamento Local** (chrome.storage) – Cache e controle de limite de uso.
 
 ## Uso de Inteligência Artificial
 A IA é utilizada no núcleo da funcionalidade da extensão:
-cada imagem é enviada para o modelo GPT-4o-mini, que interpreta o conteúdo visual e retorna uma legenda curta e descritiva.
+cada imagem é enviada para o modelo GPT-4o, que interpreta o conteúdo visual e retorna uma legenda curta e descritiva.
 
 A escolha desse modelo se deve ao seu baixo custo, bom desempenho visual e suporte em português, permitindo uma aplicação acessível e eficiente para fins educacionais e de demonstração técnica.
+
+Além disso, foram consultados modelos de LLM (ChatGPT e Gemini) durante todo o processo de desenvolvimento. 
 
 ## 🚀 Evoluções Futuras
 Após a validação do MVP, as próximas iterações planejadas incluem:
@@ -49,4 +51,5 @@ Após a validação do MVP, as próximas iterações planejadas incluem:
 - Migração futura para Manifest v4 e arquitetura mais modular.
 
 📍 Autora: Ana Cristina Vaz de Azevedo
+
 🎯 Objetivo: Demonstrar aplicação prática de IA generativa em soluções acessíveis e úteis.
