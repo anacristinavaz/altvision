@@ -6,7 +6,7 @@
    ```js
    const OPENAI_API_KEY = "<INSIRA_SUA_CHAVE_AQUI>";
    ```
-pela sua chave pessoal da OpenAI API.
+pela sua chave pessoal da OpenAI API (Pode criar uma na sua conta OpenAI de forma gratuita com plano limitado).
 
 > ⚠️ Importante: nunca publique sua chave real em repositórios públicos.
 
@@ -21,8 +21,6 @@ chrome://extensions
 6. O ícone da extensão aparecerá na barra de ferramentas.
 Basta abrir uma página com imagens e clicar em “Analisar Imagens” para gerar as descrições.
 
-## Sobre o Projeto
-O AltVision é uma extensão para o navegador Google Chrome desenvolvida com o objetivo de contribuir para uma web mais acessível.
 ## Sobre o Projeto
 O AltVision é uma extensão para o navegador Google Chrome desenvolvida com o objetivo de contribuir para uma web mais acessível.
 A ferramenta identifica imagens sem texto alternativo (alt) e gera automaticamente descrições curtas e objetivas em português, utilizando Inteligência Artificial e vsão computacional.
